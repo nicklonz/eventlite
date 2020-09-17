@@ -11,16 +11,11 @@ const Hello = props => (
 )
 
 Hello.defaultProps = {
-  name: 'David'
+  name: 'Nick'
 }
 
 Hello.propTypes = {
   name: PropTypes.string
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  ReactDOM.render(
-    <Hello name="Nick - from React" />,
-    document.body.appendChild(document.createElement('div')),
-  )
-})
+export default Hello
