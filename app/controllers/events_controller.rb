@@ -12,7 +12,7 @@ class EventsController < ApplicationController
         location: "Expert Sales Company Headquarters"
       },
       {
-        title: "Ruby Hack Night",
+        title: "Ruby Hack Night NL",
         datetime: "Friday 25 Oct, 2019",
         location: "Learnetto Headquarters"
       },
