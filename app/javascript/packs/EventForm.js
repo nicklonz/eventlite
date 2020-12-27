@@ -1,6 +1,9 @@
-importReactfrom'react'
-classEventFormextendsReact.Component{ render () {
-return ( <div>
+import React from 'react'
+
+class EventForm extends React.Component { 
+  render () {
+return ( 
+  <div>
         <h4>Create an Event:</h4>
         <form>
           <input type="text" name="title" placeholder="Title" />
@@ -9,5 +12,8 @@ return ( <div>
           <button type="submit">Create Event</button>
         </form>
       </div>
-) }
-} exportdefaultEventForm
+     )
+  }
+} 
+
+exportdefaultEventForm
