@@ -6,6 +6,7 @@ import EventsList from './EventsList'
 
 const Eventlite = props => (
   <div>
+    <EventForm />
     <EventsList events={props.events} />
   </div>
 )
