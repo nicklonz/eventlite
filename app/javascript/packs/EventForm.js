@@ -16,4 +16,4 @@ return (
   }
 } 
 
-exportdefaultEventForm
+export default EventForm

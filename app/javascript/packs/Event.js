@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ormatDate = datetime =>
+const formatDate = datetime =>
   new Date(datetime).toDateString()
 
 const Event = props => (
